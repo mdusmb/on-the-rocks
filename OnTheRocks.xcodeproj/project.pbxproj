@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A000000000000000000001 /* CocktailAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B000000000000000000001 /* CocktailAppApp.swift */; };
+		01A000000000000000000001 /* OnTheRocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B000000000000000000001 /* OnTheRocksApp.swift */; };
 		01A000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B000000000000000000002 /* ContentView.swift */; };
 		01A000000000000000000003 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B000000000000000000003 /* Cocktail.swift */; };
 		01A000000000000000000004 /* CocktailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B000000000000000000004 /* CocktailRow.swift */; };
@@ -18,14 +18,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01B000000000000000000001 /* CocktailAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailAppApp.swift; sourceTree = "<group>"; };
+		01B000000000000000000001 /* OnTheRocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheRocksApp.swift; sourceTree = "<group>"; };
 		01B000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01B000000000000000000003 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
 		01B000000000000000000004 /* CocktailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailRow.swift; sourceTree = "<group>"; };
 		01B000000000000000000005 /* CocktailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailView.swift; sourceTree = "<group>"; };
 		01B000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01B000000000000000000008 /* CocktailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B000000000000000000008 /* OnTheRocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheRocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4F87B32FAA92F800E93D59 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		3C4F87B62FAA952B00E93D59 /* Purchases.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Purchases.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,24 +45,24 @@
 		01D000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				01D000000000000000000002 /* CocktailApp */,
+				01D000000000000000000002 /* OnTheRocks */,
 				3C4F87B22FAA92F800E93D59 /* Frameworks */,
 				01D000000000000000000005 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		01D000000000000000000002 /* CocktailApp */ = {
+		01D000000000000000000002 /* OnTheRocks */ = {
 			isa = PBXGroup;
 			children = (
 				3C4F87B62FAA952B00E93D59 /* Purchases.storekit */,
-				01B000000000000000000001 /* CocktailAppApp.swift */,
+				01B000000000000000000001 /* OnTheRocksApp.swift */,
 				01B000000000000000000002 /* ContentView.swift */,
 				01D000000000000000000003 /* Models */,
 				01D000000000000000000004 /* Views */,
 				01B000000000000000000006 /* Assets.xcassets */,
 				01B000000000000000000007 /* Info.plist */,
 			);
-			path = CocktailApp;
+			path = OnTheRocks;
 			sourceTree = "<group>";
 		};
 		01D000000000000000000003 /* Models */ = {
@@ -85,7 +85,7 @@
 		01D000000000000000000005 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01B000000000000000000008 /* CocktailApp.app */,
+				01B000000000000000000008 /* OnTheRocks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01E000000000000000000001 /* CocktailApp */ = {
+		01E000000000000000000001 /* OnTheRocks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01I000000000000000000002 /* Build configuration list for PBXNativeTarget "CocktailApp" */;
+			buildConfigurationList = 01I000000000000000000002 /* Build configuration list for PBXNativeTarget "OnTheRocks" */;
 			buildPhases = (
 				01F000000000000000000001 /* Sources */,
 				01C000000000000000000001 /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = CocktailApp;
-			productName = "Cocktail App";
-			productReference = 01B000000000000000000008 /* CocktailApp.app */;
+			name = OnTheRocks;
+			productName = "On the Rocks";
+			productReference = 01B000000000000000000008 /* OnTheRocks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01I000000000000000000001 /* Build configuration list for PBXProject "CocktailApp" */;
+			buildConfigurationList = 01I000000000000000000001 /* Build configuration list for PBXProject "OnTheRocks" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01E000000000000000000001 /* CocktailApp */,
+				01E000000000000000000001 /* OnTheRocks */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A000000000000000000001 /* CocktailAppApp.swift in Sources */,
+				01A000000000000000000001 /* OnTheRocksApp.swift in Sources */,
 				01A000000000000000000002 /* ContentView.swift in Sources */,
 				01A000000000000000000003 /* Cocktail.swift in Sources */,
 				01A000000000000000000004 /* CocktailRow.swift in Sources */,
@@ -306,7 +306,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = CocktailApp/Info.plist;
+				INFOPLIST_FILE = OnTheRocks/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "On the Rocks";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -315,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mdu.CocktailApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdu.OnTheRocks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -336,7 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = CocktailApp/Info.plist;
+				INFOPLIST_FILE = OnTheRocks/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "On the Rocks";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -345,7 +345,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mdu.CocktailApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdu.OnTheRocks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01I000000000000000000001 /* Build configuration list for PBXProject "CocktailApp" */ = {
+		01I000000000000000000001 /* Build configuration list for PBXProject "OnTheRocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01J000000000000000000001 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01I000000000000000000002 /* Build configuration list for PBXNativeTarget "CocktailApp" */ = {
+		01I000000000000000000002 /* Build configuration list for PBXNativeTarget "OnTheRocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01J000000000000000000003 /* Debug */,
